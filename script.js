@@ -40,7 +40,7 @@ function addThingsToDo() {
     Swal.fire({
       icon: 'error',
       title: 'Error',
-      text: 'Please enter your bill amount and number of people',
+      text: 'Please enter your things to do',
       })
   }
 
