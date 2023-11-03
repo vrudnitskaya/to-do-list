@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f3f4;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    background-color: #fbfdfd;
+    width: 500px;
+    border: none;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.wrapper {
+    border: 1px #f76fac dotted;;
+}
+
+.nav {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.pink {
+    color: #f76fac;
+}
+
+.blue {
+    color: #72c6be;
+}
+
+.yellow {
+    color: #e9c426;
+}
+
+#input {
+    margin-top: 20px;
+    outline: none;
+    padding: 8px 15px;
+    width: 70%;
+    background-color: #f6f7f6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 3px 3px 6px #f1e2ea, inset -6px -6px 12px #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+#input:focus {
+    box-shadow: inset 1px 1px 2px #cdced1, inset -1px -1px 2px #fff;
+}
+
+.toDo {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.added {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid darkgray;
+}
+
+p {
+    color: rgb(114, 110, 110);
+}
+
+i{
+    color: #cdced1;
+    margin-right: 10px;
+}
+
+i:hover, p:hover {
+    color: #72c6be;
+}
+
+@media all and (max-width: 420px) {
+    .container {
+        width: 320px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .toDo {
+        font-size: 18px;
+    }
+}
